@@ -6,7 +6,7 @@ function sumar()
 {	
 	var numero = parseInt(document.getElementById("numeroUno").value);
     var numero2 = parseInt(document.getElementById("numeroDos").value);
-    alert("su resultado es " + numero + numero2);
+    alert("la suma es " + numero + numero2);
 }
 
 function restar()
@@ -20,13 +20,13 @@ function multiplicar()
 { 
 	var numero = parseInt(document.getElementById("numeroUno").value);
     var numero2 = parseInt(document.getElementById("numeroDos").value);
-    alert("la multiplicacion da como resultado " + numero * numero2);
+    alert("la multiplicacion es " + numero * numero2);
 }
 
 function dividir()
 {
 	var numero = parseInt(document.getElementById("numeroUno").value);
     var numero2 = parseInt(document.getElementById("numeroDos").value);
-    alert("la division de estos numero es " + numero / numero2);
+    alert("la division es " + numero / numero2);
 }
 
